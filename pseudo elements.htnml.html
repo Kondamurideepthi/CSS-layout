@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>pseudo elements</title>
+    <style>
+        h1::first-letter
+    
+        {
+            background-color: skyblue;
+            font-variant: small-caps;
+        }
+        h1::before
+        
+        {
+            content: normal;
+        }
+        p::first-line
+        {
+            background-color: brown;
+            font-size: larger;
+            text-align: center;
+            font-variant: small-caps;
+            padding: 200px;
+        
+        }
+
+        </style>
+</head>
+<body>
+    <h1> pseudo elements</h1>
+    <p>
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+    </p>
+</body>
+</html>
