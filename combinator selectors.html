@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>COMBINATOR SELECTORS</title>
+    <style>
+        #one
+        {
+            background-color: red;
+            text-align: center;
+            margin: 50px;
+            padding: 5px;
+        }
+
+        div p
+        {
+            background-color:  greenyellow;
+        }
+        div>p{
+            background-color: blueviolet;
+        }
+        div+h3{
+            background-color: brown;
+        }
+        div~h4{
+            background-color: lightcoral;
+        }
+        </style>
+</head>
+<body>
+
+    <h1 id="one"> COMBINATOR SELECTORS</h1>
+    <h1>
+        Descendent selector</h1>
+        <p>
+            dec selec</p>
+            <p> des sel </p>
+            <p> des sel </p>
+            <div>
+                <p> div des sel </p>
+                <p> div des sel </p>
+                <p> div des sel </p>
+                <p> div des sel </p>
+                <section>
+                    <p>
+                        div section sel
+                    </p>
+                </section>
+            </div>
+            <h2 >
+                child selector
+            </h2>
+           <p> child normal sel</p>
+           <p> child normal sel</p>
+           <p> child normal sel</p>
+           <div> 
+            <p>
+                <p> child div sel</p>
+                <p> child div sel</p>
+                <p> child div sel</p>
+           
+            </p>
+           </div>
+           <p> child normal sel</p>
+           <p> child normal sel</p>
+           <h3>
+            Adjacent sibling selector
+           </h3>
+           <h3> adj nor sel</h3>
+           <h3> adj nor sel</h3>
+           <h3> adj nor sel</h3>
+           <div>
+            <h3> adj div sel</h3>
+            <h3> adj div sel</h3>
+            <h3> adj div sel</h3>
+           </div>
+           <h3> adj nor sel</h3>
+           <h3> adj nor sel</h3>
+           <h3> adj nor sel</h3>
+           <h5 style="color: lightgreen; width: 9000px;"> GENERAL sibling SELECTORS</h5>
+
+           <h4> gen nor sel</h4>
+           <h4> gen nor sel</h4>
+           <h4> gen nor sel</h4>
+           <div>
+            <h4>
+                <h4> gen div sel</h4>
+                <h4> gen div sel</h4>
+                <h4> gen div sel</h4>
+                <h4> gen div sel</h4>
+            </h4>
+           </div>
+           <h4> gen nor sel</h4>
+           <h4> gen nor sel</h4>
+           <h4> gen nor sel</h4>
+           <h4> gen nor sel</h4>
+           
+
+           
+
+
+    
+</body>
+</html>
